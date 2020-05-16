@@ -8,8 +8,13 @@ official site -> https://deno.land/
 git clone https://github.com/interceptor128/deno-test-app.git
 ```
 
-## Preparation for VS Code
-Download and enable the extension from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=axetroy.vscode-deno)
+## Preparation
+1. Download and enable the extension from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=axetroy.vscode-deno)
+
+2. Install deno server module
+```
+deno install https://deno.land/std@0.50.0/http/server.ts
+```
 
 ## Run server
 ```
